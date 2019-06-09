@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623ACF5322AB8E2A002EE570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF5222AB8E2A002EE570 /* AppDelegate.m */; };
+		623ACF5922AB8E2A002EE570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF5722AB8E2A002EE570 /* Main.storyboard */; };
+		623ACF5B22AB8E2E002EE570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF5A22AB8E2E002EE570 /* Assets.xcassets */; };
+		623ACF5E22AB8E2E002EE570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF5C22AB8E2E002EE570 /* LaunchScreen.storyboard */; };
+		623ACF6122AB8E2E002EE570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF6022AB8E2E002EE570 /* main.m */; };
+		623ACF6A22AB902B002EE570 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF6922AB902B002EE570 /* MapViewController.m */; };
+		623ACF6E22AB92E2002EE570 /* MapSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF6D22AB92E2002EE570 /* MapSearchView.m */; };
+		623ACF7222AB9321002EE570 /* MapSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF7122AB9321002EE570 /* MapSearchView.xib */; };
+		623ACF7522AB96F8002EE570 /* roboto-light_[allfont.ru].ttf in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF7422AB96F8002EE570 /* roboto-light_[allfont.ru].ttf */; };
+		623ACF7822AB9AE9002EE570 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF7722AB9AE9002EE570 /* Default-568h@2x.png */; };
+		623ACF7C22AB9D15002EE570 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF7B22AB9D15002EE570 /* MapView.m */; };
+		623ACF7E22AB9D25002EE570 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF7D22AB9D25002EE570 /* MapView.xib */; };
+		623ACF8222ABF0FB002EE570 /* MapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF8122ABF0FB002EE570 /* MapHelper.m */; };
+		623ACF8622AD254E002EE570 /* PhotoPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF8522AD254E002EE570 /* PhotoPickerView.m */; };
+		623ACF8822AD2560002EE570 /* PhotoPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF8722AD2560002EE570 /* PhotoPickerView.xib */; };
+		623ACF8A22AD2CF8002EE570 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF8922AD2CF8002EE570 /* Roboto-Regular.ttf */; };
+		623ACF8F22AD5400002EE570 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF8D22AD5400002EE570 /* ImageCell.m */; };
+		623ACF9022AD5400002EE570 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623ACF8E22AD5400002EE570 /* ImageCell.xib */; };
+		623ACF9522AD68E4002EE570 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623ACF9422AD68E4002EE570 /* MessageViewController.m */; };
+		C02BE9A52227011762785AF7 /* libPods-ItLavkaMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B059F3412643BB431C6B5A9 /* libPods-ItLavkaMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B059F3412643BB431C6B5A9 /* libPods-ItLavkaMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ItLavkaMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623ACF4E22AB8E2A002EE570 /* ItLavkaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItLavkaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		623ACF5122AB8E2A002EE570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		623ACF5222AB8E2A002EE570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		623ACF5822AB8E2A002EE570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		623ACF5A22AB8E2E002EE570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		623ACF5D22AB8E2E002EE570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		623ACF5F22AB8E2E002EE570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623ACF6022AB8E2E002EE570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		623ACF6822AB902B002EE570 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		623ACF6922AB902B002EE570 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		623ACF6C22AB92E2002EE570 /* MapSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapSearchView.h; sourceTree = "<group>"; };
+		623ACF6D22AB92E2002EE570 /* MapSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapSearchView.m; sourceTree = "<group>"; };
+		623ACF7122AB9321002EE570 /* MapSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapSearchView.xib; sourceTree = "<group>"; };
+		623ACF7422AB96F8002EE570 /* roboto-light_[allfont.ru].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light_[allfont.ru].ttf"; sourceTree = "<group>"; };
+		623ACF7722AB9AE9002EE570 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		623ACF7A22AB9D15002EE570 /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		623ACF7B22AB9D15002EE570 /* MapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		623ACF7D22AB9D25002EE570 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		623ACF8022ABF0FB002EE570 /* MapHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapHelper.h; sourceTree = "<group>"; };
+		623ACF8122ABF0FB002EE570 /* MapHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapHelper.m; sourceTree = "<group>"; };
+		623ACF8422AD254E002EE570 /* PhotoPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPickerView.h; sourceTree = "<group>"; };
+		623ACF8522AD254E002EE570 /* PhotoPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerView.m; sourceTree = "<group>"; };
+		623ACF8722AD2560002EE570 /* PhotoPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPickerView.xib; sourceTree = "<group>"; };
+		623ACF8922AD2CF8002EE570 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../weworktogether-ios/Weworktogether/Resources/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		623ACF8C22AD5400002EE570 /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		623ACF8D22AD5400002EE570 /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		623ACF8E22AD5400002EE570 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		623ACF9322AD68E4002EE570 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		623ACF9422AD68E4002EE570 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		814527949290B93AA5FEF631 /* Pods-ItLavkaMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItLavkaMap.debug.xcconfig"; path = "Target Support Files/Pods-ItLavkaMap/Pods-ItLavkaMap.debug.xcconfig"; sourceTree = "<group>"; };
+		F20EF3582331C5B7A4C474B6 /* Pods-ItLavkaMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItLavkaMap.release.xcconfig"; path = "Target Support Files/Pods-ItLavkaMap/Pods-ItLavkaMap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623ACF4B22AB8E2A002EE570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02BE9A52227011762785AF7 /* libPods-ItLavkaMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623ACF4522AB8E2A002EE570 = {
+			isa = PBXGroup;
+			children = (
+				623ACF5022AB8E2A002EE570 /* ItLavkaMap */,
+				623ACF4F22AB8E2A002EE570 /* Products */,
+				A23F8D2FD645E23F3731562F /* Pods */,
+				73BBA81247BEFB1165B277CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		623ACF4F22AB8E2A002EE570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF4E22AB8E2A002EE570 /* ItLavkaMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623ACF5022AB8E2A002EE570 /* ItLavkaMap */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF6B22AB9117002EE570 /* App */,
+				623ACF7622AB9A6F002EE570 /* Storyboards */,
+				623ACF6722AB900B002EE570 /* Controllers */,
+				623ACF7022AB92F8002EE570 /* Views */,
+				623ACF8B22AD53D3002EE570 /* Cells */,
+				623ACF7F22ABF0C6002EE570 /* Helper */,
+			);
+			path = ItLavkaMap;
+			sourceTree = "<group>";
+		};
+		623ACF6722AB900B002EE570 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF9222AD68CB002EE570 /* Message */,
+				623ACF9122AD68C3002EE570 /* Map */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		623ACF6B22AB9117002EE570 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF7322AB96DA002EE570 /* Fonts */,
+				623ACF5122AB8E2A002EE570 /* AppDelegate.h */,
+				623ACF5222AB8E2A002EE570 /* AppDelegate.m */,
+				623ACF5A22AB8E2E002EE570 /* Assets.xcassets */,
+				623ACF5F22AB8E2E002EE570 /* Info.plist */,
+				623ACF7722AB9AE9002EE570 /* Default-568h@2x.png */,
+				623ACF6022AB8E2E002EE570 /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		623ACF6F22AB92E8002EE570 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF6C22AB92E2002EE570 /* MapSearchView.h */,
+				623ACF6D22AB92E2002EE570 /* MapSearchView.m */,
+				623ACF7122AB9321002EE570 /* MapSearchView.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		623ACF7022AB92F8002EE570 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF8322AD2531002EE570 /* Photo */,
+				623ACF7922AB9CF6002EE570 /* Map */,
+				623ACF6F22AB92E8002EE570 /* Search */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		623ACF7322AB96DA002EE570 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF8922AD2CF8002EE570 /* Roboto-Regular.ttf */,
+				623ACF7422AB96F8002EE570 /* roboto-light_[allfont.ru].ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		623ACF7622AB9A6F002EE570 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF5722AB8E2A002EE570 /* Main.storyboard */,
+				623ACF5C22AB8E2E002EE570 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		623ACF7922AB9CF6002EE570 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF7A22AB9D15002EE570 /* MapView.h */,
+				623ACF7B22AB9D15002EE570 /* MapView.m */,
+				623ACF7D22AB9D25002EE570 /* MapView.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		623ACF7F22ABF0C6002EE570 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF8022ABF0FB002EE570 /* MapHelper.h */,
+				623ACF8122ABF0FB002EE570 /* MapHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		623ACF8322AD2531002EE570 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF8422AD254E002EE570 /* PhotoPickerView.h */,
+				623ACF8522AD254E002EE570 /* PhotoPickerView.m */,
+				623ACF8722AD2560002EE570 /* PhotoPickerView.xib */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		623ACF8B22AD53D3002EE570 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF8C22AD5400002EE570 /* ImageCell.h */,
+				623ACF8D22AD5400002EE570 /* ImageCell.m */,
+				623ACF8E22AD5400002EE570 /* ImageCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		623ACF9122AD68C3002EE570 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF6822AB902B002EE570 /* MapViewController.h */,
+				623ACF6922AB902B002EE570 /* MapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		623ACF9222AD68CB002EE570 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				623ACF9322AD68E4002EE570 /* MessageViewController.h */,
+				623ACF9422AD68E4002EE570 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		73BBA81247BEFB1165B277CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B059F3412643BB431C6B5A9 /* libPods-ItLavkaMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23F8D2FD645E23F3731562F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				814527949290B93AA5FEF631 /* Pods-ItLavkaMap.debug.xcconfig */,
+				F20EF3582331C5B7A4C474B6 /* Pods-ItLavkaMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623ACF4D22AB8E2A002EE570 /* ItLavkaMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623ACF6422AB8E2E002EE570 /* Build configuration list for PBXNativeTarget "ItLavkaMap" */;
+			buildPhases = (
+				E8CFA6D562FC7B0C43A80F7B /* [CP] Check Pods Manifest.lock */,
+				623ACF4A22AB8E2A002EE570 /* Sources */,
+				623ACF4B22AB8E2A002EE570 /* Frameworks */,
+				623ACF4C22AB8E2A002EE570 /* Resources */,
+				945E5CA4DAFE013B0C59693F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ItLavkaMap;
+			productName = ItLavkaMap;
+			productReference = 623ACF4E22AB8E2A002EE570 /* ItLavkaMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		623ACF4622AB8E2A002EE570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hayk Harutyunyan";
+				TargetAttributes = {
+					623ACF4D22AB8E2A002EE570 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 623ACF4922AB8E2A002EE570 /* Build configuration list for PBXProject "ItLavkaMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623ACF4522AB8E2A002EE570;
+			productRefGroup = 623ACF4F22AB8E2A002EE570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623ACF4D22AB8E2A002EE570 /* ItLavkaMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623ACF4C22AB8E2A002EE570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623ACF7522AB96F8002EE570 /* roboto-light_[allfont.ru].ttf in Resources */,
+				623ACF5E22AB8E2E002EE570 /* LaunchScreen.storyboard in Resources */,
+				623ACF7222AB9321002EE570 /* MapSearchView.xib in Resources */,
+				623ACF9022AD5400002EE570 /* ImageCell.xib in Resources */,
+				623ACF5B22AB8E2E002EE570 /* Assets.xcassets in Resources */,
+				623ACF5922AB8E2A002EE570 /* Main.storyboard in Resources */,
+				623ACF7822AB9AE9002EE570 /* Default-568h@2x.png in Resources */,
+				623ACF8A22AD2CF8002EE570 /* Roboto-Regular.ttf in Resources */,
+				623ACF7E22AB9D25002EE570 /* MapView.xib in Resources */,
+				623ACF8822AD2560002EE570 /* PhotoPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		945E5CA4DAFE013B0C59693F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ItLavkaMap/Pods-ItLavkaMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ItLavkaMap/Pods-ItLavkaMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItLavkaMap/Pods-ItLavkaMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CFA6D562FC7B0C43A80F7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItLavkaMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		623ACF4A22AB8E2A002EE570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623ACF6A22AB902B002EE570 /* MapViewController.m in Sources */,
+				623ACF8F22AD5400002EE570 /* ImageCell.m in Sources */,
+				623ACF6E22AB92E2002EE570 /* MapSearchView.m in Sources */,
+				623ACF8222ABF0FB002EE570 /* MapHelper.m in Sources */,
+				623ACF6122AB8E2E002EE570 /* main.m in Sources */,
+				623ACF5322AB8E2A002EE570 /* AppDelegate.m in Sources */,
+				623ACF9522AD68E4002EE570 /* MessageViewController.m in Sources */,
+				623ACF7C22AB9D15002EE570 /* MapView.m in Sources */,
+				623ACF8622AD254E002EE570 /* PhotoPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		623ACF5722AB8E2A002EE570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623ACF5822AB8E2A002EE570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		623ACF5C22AB8E2E002EE570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623ACF5D22AB8E2E002EE570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		623ACF6222AB8E2E002EE570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		623ACF6322AB8E2E002EE570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		623ACF6522AB8E2E002EE570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814527949290B93AA5FEF631 /* Pods-ItLavkaMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWHV2CZS4H;
+				INFOPLIST_FILE = "$(SRCROOT)/ItLavkaMap/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hayk-Harutyunyan.ItLavkaMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		623ACF6622AB8E2E002EE570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20EF3582331C5B7A4C474B6 /* Pods-ItLavkaMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWHV2CZS4H;
+				INFOPLIST_FILE = "$(SRCROOT)/ItLavkaMap/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hayk-Harutyunyan.ItLavkaMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623ACF4922AB8E2A002EE570 /* Build configuration list for PBXProject "ItLavkaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623ACF6222AB8E2E002EE570 /* Debug */,
+				623ACF6322AB8E2E002EE570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623ACF6422AB8E2E002EE570 /* Build configuration list for PBXNativeTarget "ItLavkaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623ACF6522AB8E2E002EE570 /* Debug */,
+				623ACF6622AB8E2E002EE570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 623ACF4622AB8E2A002EE570 /* Project object */;
+}

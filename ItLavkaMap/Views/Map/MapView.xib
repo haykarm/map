@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="roboto-light_[allfont.ru].ttf">
+            <string>Roboto-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="STh-fW-uBK"/>
+                <outlet property="mapView" destination="CQ7-4s-teQ" id="r3Y-2J-QKe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="517"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Местоположение на карте" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoM-xP-1Ug">
+                    <rect key="frame" x="25" y="32" width="362" height="16.5"/>
+                    <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CQ7-4s-teQ" customClass="GMSMapView">
+                    <rect key="frame" x="8" y="56.5" width="396" height="360.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pin_map" translatesAutoresizingMaskIntoConstraints="NO" id="ecK-8F-PvB">
+                    <rect key="frame" x="192" y="201" width="35" height="37"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jp9-wL-gYf">
+                    <rect key="frame" x="25" y="437" width="362" height="68"/>
+                    <string key="text">Передвигайте карту для указания метоположения. 
+Для уточнения местополежения воспользуйтесь поиском по названию</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ecK-8F-PvB" firstAttribute="centerY" secondItem="CQ7-4s-teQ" secondAttribute="centerY" constant="-17.5" id="56k-8P-wK2"/>
+                <constraint firstItem="EoM-xP-1Ug" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="Djp-Gy-fl3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="jp9-wL-gYf" secondAttribute="bottom" constant="12" id="GGy-4U-2YZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="EoM-xP-1Ug" secondAttribute="trailing" constant="25" id="Rdg-wo-pZD"/>
+                <constraint firstItem="EoM-xP-1Ug" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="ZKW-Ce-KvO"/>
+                <constraint firstItem="jp9-wL-gYf" firstAttribute="top" secondItem="CQ7-4s-teQ" secondAttribute="bottom" constant="20" id="eJq-RR-uOD"/>
+                <constraint firstItem="CQ7-4s-teQ" firstAttribute="top" secondItem="EoM-xP-1Ug" secondAttribute="bottom" constant="8" id="nVX-j3-Bl5"/>
+                <constraint firstItem="jp9-wL-gYf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="o8h-qd-OVn"/>
+                <constraint firstItem="ecK-8F-PvB" firstAttribute="centerX" secondItem="CQ7-4s-teQ" secondAttribute="centerX" constant="3.5" id="oQG-Nh-ojR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jp9-wL-gYf" secondAttribute="trailing" constant="25" id="vd3-VO-1Pc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CQ7-4s-teQ" secondAttribute="trailing" constant="8" id="vsl-QL-DLH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CQ7-4s-teQ" secondAttribute="bottom" constant="100" id="x24-jl-nsP"/>
+                <constraint firstItem="CQ7-4s-teQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="zA4-qy-6BZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="121.59999999999999" y="83.208395802098963"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_pin_map" width="35" height="37"/>
+    </resources>
+</document>
